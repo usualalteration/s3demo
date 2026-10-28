@@ -13,7 +13,22 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
+        mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "Menlo", "Consolas", "monospace"],
+      },
       colors: {
+        studio: {
+          crimson: "#C62828",
+          "crimson-dark": "#7F1D1D",
+          "crimson-accent": "#EF4444",
+          charcoal: "#18181B",
+          graphite: "#27272A",
+          "graphite-light": "#3F3F46",
+          ivory: "#FAF9F6",
+          sand: "#E4E4E7",
+          slate: "#71717A",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

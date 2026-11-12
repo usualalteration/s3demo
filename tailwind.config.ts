@@ -14,6 +14,19 @@ export default {
     },
     extend: {
       colors: {
+        crimson: {
+          DEFAULT: "#C62828",
+          dark: "#7F1D1D",
+          accent: "#EF4444",
+        },
+        charcoal: {
+          DEFAULT: "#18181B",
+          graphite: "#27272A",
+          subtle: "#3F3F46",
+        },
+        ivory: "#FAF9F6",
+        linen: "#E4E4E7",
+        mutedink: "#71717A",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +70,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
+        mono: ["'JetBrains Mono'", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -122,7 +122,7 @@ Frontend request example:
   "contentBase64": "<BASE64_FILE_CONTENT>",
   "overwrite": false
 }
-```
+
 
 The Python action must:
 
@@ -491,7 +491,6 @@ Build the entire application from scratch without requiring any manual S3 creden
 don't make a login page, the action_add_s3 must connect automatically
 ```
 
-```
 # S3 Object Studio
 
 A professional cloud file manager built on **React + Tailwind CSS** with a
